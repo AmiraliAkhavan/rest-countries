@@ -1,0 +1,287 @@
+@media (max-width: 800px) {
+  .switch {
+    justify-content: flex-end;
+    font-size: 12px;
+    flex: 0.5;
+  }
+
+  .search {
+    margin-bottom: 20px;
+  }
+
+  .country-detail {
+    flex-direction: column;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .leftInfo {
+    margin-bottom: 15px;
+  }
+
+  .input {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+
+  .logo {
+    font-size: 18px;
+    flex: 0.5;
+  }
+}
+
+.header {
+  padding: 15px;
+  box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.8);
+  background-color: #fff;
+}
+
+.header.darkMode {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+
+.header_container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+}
+
+.App {
+  background-color: hsl(0, 0%, 98%);
+  height: 100%;
+  min-height: 100vh;
+}
+
+.App.darkMode {
+  background-color: hsl(207, 26%, 17%);
+  color: white;
+}
+
+.body {
+  padding: 15px;
+  margin: 15px auto 0;
+  max-width: 1440px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch {
+  display: flex;
+  gap: 12px;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.5);
+  width: 300px;
+  padding: 5px;
+  gap: 10px;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.search input {
+  font-size: 16px;
+  border: 0;
+  background-color: transparent;
+}
+
+.search.darkMode {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+
+.search.darkMode input {
+  color: white;
+}
+
+.search.darkMode input::placeholder {
+  color: white;
+}
+
+.region-selector {
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.5);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.region-selector.darkMode {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+
+.region-selector.darkMode select {
+  color: white;
+}
+
+.region-selector.darkMode option {
+  background-color: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+
+.region-selector select {
+  width: 100%;
+  padding: 3px;
+  border: none;
+  background-color: transparent;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  padding: 15px;
+  gap: 30px;
+}
+
+.country {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.5);
+  width: 305px;
+  height: 370px;
+  border-radius: 5px;
+}
+
+.country.darkMode {
+  color: white;
+  background-color: hsl(209, 23%, 22%);
+}
+
+.country .flag {
+  width: 100%;
+  height: 170px;
+}
+
+.country .flag img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.country .name {
+  margin-bottom: 10px;
+}
+
+.country .value {
+  opacity: 0.7;
+}
+
+.country.value.darkMode {
+  color: lightgrey;
+}
+
+.country .details {
+  padding: 15px;
+}
+
+.country-page {
+  max-width: 1440px;
+  margin: 15px auto 0;
+  padding: 15px;
+  min-height: 100vh;
+}
+
+.back-btn {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 5px;
+  gap: 5px;
+  font-weight: bold;
+  background-color: #fff;
+  box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.3);
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.back-btn.darkMode {
+  color: white;
+  background-color: hsl(209, 23%, 22%);
+}
+
+.country-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  gap: 40px;
+  margin: 15px auto 0;
+  padding: 15px;
+}
+
+.img {
+  flex: 0.5;
+}
+
+.img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.country-info {
+  flex: 0.5
+}
+
+.country-info.darkMode {
+  color: #fff;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.country-info h2 {
+  margin-bottom: 10px;
+}
+
+.country-info .value {
+  opacity: 0.8;
+}
+
+.country-info .value.darkMode {
+  color: lightgrey;
+}
+
+.borders {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fff;
+  margin: 10px;
+  padding: 5px 10px;
+  box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.3);
+}
+
+.borders.darkMode {
+  color: #fff;
+  background-color: hsl(209, 23%, 22%);
+}
