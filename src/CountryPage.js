@@ -39,7 +39,7 @@ const CountryPage = ({ darkMode, refetch, countries }) => {
       name = country.name;
       population = country.population;
       region = country.region;
-      subRegion = country.subRegion;
+      subRegion = country.subregion;
       capital = country.capital;
       topLevelDomain = country.topLevelDomain;
     }
